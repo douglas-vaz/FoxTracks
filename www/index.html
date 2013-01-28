@@ -1,36 +1,79 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>FoxTracks</title>
+        <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+    </head>
+    <body>
+        <div id="container">
+            <div id="header">
+                <div class="select">
+                    <form id="streamData" action="#">
+                    </form>
+                    <form id="uploadData">
+                        <label for="fileChooser">Pick Your Poison</label> 
+                        <input id="fileChooser" type="file"/>
+                    </form>
+                </div>
+            </div>
+            <div id="content">
+                <div id="ID3">
+                    <div class="intro">
+                        <h2>FoxTracks</h2>
+                        <img src="images/ff" style="height: 190px; width: 180px; opacity:0.5"/>
+                    </div>
+                </div>
+            </div>
 
-    <title></title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width">
+        </div>
+        <!--
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.js"></script>
+        <script type="text/javascript" src="src/jsmad.min.js"></script>
+        -->
+        <script type="text/javascript" src="scripts/jquery.js"></script>
 
-    <!-- Place favicon.ico in the root directory -->
+        <script type="text/javascript" src="src/mad.js"></script>
+        <script type="text/javascript" src="src/rq_table.js"></script>
+        <script type="text/javascript" src="src/imdct_s.js"></script>
+        <script type="text/javascript" src="src/huffman.js"></script>
+        <script type="text/javascript" src="src/bit.js"></script>
+        <script type="text/javascript" src="src/stream.js"></script>
+        <script type="text/javascript" src="src/layer3.js"></script>
+        <script type="text/javascript" src="src/frame.js"></script>
+        <script type="text/javascript" src="src/synth.js"></script>
 
-    <link rel="stylesheet" href="css/app.css">
-  </head>
-  <body>
-    <!-- Use this installation button to install locally without going
-         through the marketpace (see app.js) -->
-    <button id="install-btn">Install</button>    
+        <script type="text/javascript" src="src/arraybuffer/bytestream.js"></script>
+        <script type="text/javascript" src="src/arraybuffer/filestream.js"></script>
+        <script type="text/javascript" src="src/arraybuffer/substream.js"></script>
+        <script type="text/javascript" src="src/arraybuffer/arraystream.js"></script>
+        <script type="text/javascript" src="src/arraybuffer/ajaxstream.js"></script>
 
-    <!-- Write your application here -->
+        <script type="text/javascript" src="src/binarystring/bytestream.js"></script>
+        <script type="text/javascript" src="src/binarystring/filestream.js"></script>
+        <script type="text/javascript" src="src/binarystring/substream.js"></script>
+        <script type="text/javascript" src="src/binarystring/stringstream.js"></script>
+        <script type="text/javascript" src="src/binarystring/ajaxstream.js"></script>
 
+        <script type="text/javascript" src="src/id3v22stream.js"></script>
+        <script type="text/javascript" src="src/id3v23stream.js"></script>
+        <script type="text/javascript" src="src/mp3file.js"></script>
 
-
-
-
-
-
-    
-    <!-- Using require.js, a module system for javascript, include the
-         js files. This loads "main.js", which in turn can load other
-         files, all handled by require.js:
-         http://requirejs.org/docs/api.html#jsfiles -->
-    <script type="text/javascript"
-            data-main="js/init.js"
-            src="js/lib/require.js"></script>
-  </body>
+        <script type="text/javascript" src="src/player.js"></script>
+        <script type="text/javascript" src="scripts/sink.min.js"></script>
+        <script type="text/javascript" src="officialfm.js"></script>
+        <script type="text/javascript" src="mhd.js"></script>
+       
+        <!-- 
+        <script>
+          var _gaq = [['_setAccount', 'UA-24032051-1'], ['_trackPageview']];
+          (function(d, t) {
+            var g = d.createElement(t),
+                s = d.getElementsByTagName(t)[0];
+            g.async = g.src = '//www.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g, s);
+          }(document, 'script'));
+        </script>
+        -->
+    </body>
 </html>

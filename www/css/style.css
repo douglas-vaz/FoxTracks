@@ -1,0 +1,134 @@
+body {
+  font-family: Helvetica;
+  margin:0;
+  padding:0;
+  background:rgb(11,122,178) repeat-x top left;
+  overflow:hidden;
+}
+#container {
+  width:100%;
+  margin:0 auto;
+}
+#uploadData{
+  width:100%;
+  overflow:hidden;
+}
+h1 { 
+  background:transparent no-repeat top left;
+  width: 157px;
+  height: 180px;
+  display: block;
+  float:left;
+  margin:20px 40px 20px 20px;
+  }
+  h1 span { display:none; }
+  
+h2 { font-size: 40px; line-height: 38px; left:40%; margin:0; }
+h3 { font-size: 22px; margin: 10px 0 20px; }
+
+h3 small { font-size: 14px; color:#FA5945 !important; font-weight:normal !important; margin-left:10px; }
+
+a, a:active { color:#490CCE; outline:0;}
+a:hover { color:#0A28AC; }
+
+
+div.select {
+  top: 0%;
+  clear:right;
+  position: relative;
+}
+div.select span {
+  margin:0 10px;
+}
+form { display: inline-block;}
+
+label { color:rgb(3,24,35); font-size: 18px; line-height:22px; margin-bottom: 3px; text-shadow: rgba(0,0,0,0.3) 1px 1px 1px; display:block;}
+label.ofm { background:url(../images/ofm.png) no-repeat top left; padding-left:20px;}
+
+input { font-size:18px; }
+
+#content {
+  clear:both;
+  overflow:hidden;
+}
+
+#ID3 {
+  background:#fff;
+  padding:20px;
+  min-height:400px;
+  position:relative;
+}
+
+#ID3:before {
+  content: ' ';
+  height: 0;
+  position: absolute;
+  width: 0;	
+  border: 15px solid transparent;
+	border-bottom-color: #fff;
+	top: 0%;
+	left: 90px;
+	margin-top: -30px;
+}
+
+div.player { 
+  float:left;
+  margin-right:20px;
+  }
+
+div.picture {
+  width:75%; 
+  height:75%; 
+  display: block; 
+  }
+  div.picture img.picture {
+    width:100%; 
+    height:100%; 
+    display: block; 
+  }
+
+a.button {
+  width:100px; 
+  height:100px; 
+  display:block;
+  position:relative; 
+  top:0%; 
+  left:25%;
+}
+
+a.play {
+  background: transparent url(../images/play.png) no-repeat top left; 
+  opacity:0.7;
+  }
+  a.play:hover {opacity:1;}
+
+a.pause {
+  background: transparent url(../images/pause.png) no-repeat top left; 
+  opacity:0.7;
+  }
+  a.pause:hover {opacity:1;}
+
+div.timeline {
+  width:100%;
+  height:20px;
+  border: 1px solid rgba(255,228,0,0.7);
+  display:block;
+  position:relative;
+  top:-140px;
+  left:0;
+  overflow: hidden;
+}
+div#progressbar { width: 0; height: 20px; background-color: #FA5945; }
+div#preloadbar { width: 0; height: 20px; background-color: rgba(226,133,29,0.5);left:0; }
+
+div.meta { background-color: rgb(11,122,178); width:75%; padding:20px; font-size:16px; display:inline-block; }
+
+#shareTrack {
+    text-align: right;
+    margin: 20px 0 40px 0;
+}
+
+#playUrl {
+    width: 320px;
+}
+

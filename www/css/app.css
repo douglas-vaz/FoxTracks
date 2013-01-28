@@ -6,4 +6,21 @@
 @import "install-button.css";
 
 /* Your styles here */
+body{
+	margin: 0px;
+}
+#top-bar{
+	width: 100%;
+	height: 10%;
+	background-color: #122c4b;
+	top: 0;
+	color: rgb(239, 239, 239);
+}
 
+#player{
+	position: absolute;
+	bottom: 0;
+	background-color: #122c4b;
+	height: 20%;
+	width: 100%;
+}

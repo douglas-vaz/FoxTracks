@@ -4,9 +4,9 @@
   "description": "8tracks for Firefox OS",
   "launch_path": "./index.html",
   "icons": {
-    "16": "/img/icons/icon.png",
-    "48": "/img/icons/icon.png",
-    "128": "/img/icons/icon.png"
+    "16": "/img/icons/icon.jpg",
+    "48": "/img/icons/icon.jpg",
+    "128": "/img/icons/icon.jpg"
   },
   "developer": {
     "name": "Your Name",
