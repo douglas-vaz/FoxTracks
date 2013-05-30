@@ -1,1 +1,1 @@
-FoxTracks is a Simple music player for the firefox OS, written in Javascript. 
+FoxTracks is a simple music player for the Firefox OS, written in Javascript. 
